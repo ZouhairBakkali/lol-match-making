@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en" ng-app="LoL">
+<head>
+  <meta charset="utf-8">
+  <title>AngularJS LoL match history</title>
+  <link rel="stylesheet" href="css/app.css"/>
+</head>
+<body>
+  <center><img style="width: 200px" src="img/lol_logo.jpg"></img></center>
+  <ul class="menu">
+    <li><a href="#/matchmaking">Matchmaking</a></li>
+    <li><a href="#/maps">Maps</a></li>
+  </ul>
+  
+  <div ng-view></div>
+
+  <!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+  -->
+  <script src="../bower_components/angular/angular.js"></script>
+  <script src="../bower_components/angular-route/angular-route.js"></script>
+  <script src="app.js"></script>
+  <script src="components/views/maps/maps.js"></script>
+  <script src="components/views/matchmaking/matchmaking.js"></script>
+</body>
+</html>
