@@ -3,5 +3,5 @@ LoL.controller('MatchmakingCtrl', ['$scope', function($scope) {
 	
 	return {
 		testable: function() { return true; }
-	}
+	};
 }]);

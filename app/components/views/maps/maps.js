@@ -3,5 +3,5 @@ LoL.controller('MapsCtrl', ['$scope', function($scope) {
 
 	return {
 		testable: function() { return true; }
-	}
+	};
 }]);
